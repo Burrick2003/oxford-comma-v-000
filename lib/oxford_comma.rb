@@ -4,7 +4,7 @@ def oxford_comma(array)
 
   elsif array.size == 2
     array.join(" and ")
-  elsif array.size >= 3
+  elsif array.size >= 3 #what a fun puzzle this was
     array[array.size-1] = "and #{array[array.size-1]}"
     array.join(", ")
   else
